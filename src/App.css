@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.login-container {
+  background-color: rgb(5, 44, 25);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background-color: #54448b;
+  padding: 40px;
+  border-radius: 15px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.login-title {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 55px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.login-input {
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+  padding-left: 8px;
+  margin-bottom: 10px;
+}
+
+.options-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #00008b;
+}
+
+.forgot-password {
+  text-decoration: none;
+  color: #00008b;
+}
+
+.login-button {
+  background: linear-gradient(135deg, #f7fa34 0%, #e0ee24 100%);
+  color: rgb(0, 0, 0);
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.social-login {
+  text-align: center;
+  font-size: 14px;
+}
+
+.social-text {
+  margin-bottom: 10px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.icons img {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.signup-text {
+  font-size: 12px;
+}
+
+.signup-link {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
